@@ -42,4 +42,4 @@ jobs:
                     cd /home/ubuntu/david
                     sudo docker-compose pull
                     sudo docker-compose up -d
-                    sudo docker run -d -p 3000:3000 --name ndubuisi ${{vars.DOCKER_USERNAME}}/frontend
+                    # sudo docker run -d -p 3000:3000 --name ndubuisi ${{vars.DOCKER_USERNAME}}/frontend
